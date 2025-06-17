@@ -1,6 +1,9 @@
 <template>
     <div>
         <h1>welcome to the vuejs {{ name }}</h1>
+
+        <router-link to="/about">Go to About</router-link>
+
     </div>
 </template>
 

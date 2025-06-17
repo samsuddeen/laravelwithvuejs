@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        @vite('resources/js/app.js')
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -14,9 +16,7 @@
 
     </head>
     <body class="antialiased">
-        @vite('resources/js/app.js')
         <div id="app">
-           <example-component></example-component>
         </div>
 
     </body>
