@@ -12,6 +12,9 @@
 
 <script>
 export default {
+    mounted(){
+console.log('home');
+    },
   methods: {
     goToHome() {
       this.$router.push('/');
